@@ -1,0 +1,94 @@
+.dropzone {
+   background-color: #e9e9e9;
+   width: 100%;
+   min-height: 140px;
+   float: left;
+
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border: 1px dashed darkgray;
+   
+   background-repeat: no-repeat;
+   background-position: center; 
+}
+
+.dropzone_elements { 
+   float: left; 
+   padding: 10px;
+}
+
+.dropzone_element {
+   position: relative;
+}
+
+.dropzone_element img {
+   width: 165px;
+   height: 115px;
+   
+   background-color: #e9e9e9;
+   padding: 5px;
+   margin: 5px;
+   border: 1px solid #d9d9d9;
+   float: left;
+}
+
+.dropzone_element .remove {
+   border: none;
+   position: absolute;
+   width: 18px;
+   height: 18px;
+   top: -2px;
+   right: 0px;  
+   margin: 0px;
+   padding: 0px;
+   background: none;
+}
+
+.dropzone_element .remove:hover {
+   cursor: pointer;
+}
+
+.dropzone_element_fields {
+   margin-left: 5px;
+}
+
+.dropzone_element_field {
+   margin-top: 2px;
+}
+
+.dropzone_element_field_name {
+   display: table-cell;       
+   width: 75px;
+   font-size: 12px;
+   padding-left: 10px;
+   padding-right: 5px;
+   background-color: #d0d0d0;
+   color: black;
+   
+   -webkit-border-bottom-left-radius: 2px;
+   -webkit-border-top-left-radius: 2px;
+   -moz-border-radius-topleft: 2px;
+   -moz-border-radius-bottomleft: 2px;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+
+.dropzone_element_field_value {
+   display: table-cell;
+}
+
+.dropzone_element_field_value input {
+   padding-top: 1px;               
+   padding-bottom: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   border: none;
+   
+   -webkit-border-bottom-right-radius: 2px;
+   -webkit-border-top-right-radius: 2px;
+   -moz-border-radius-topright: 2px;
+   -moz-border-radius-bottomright: 2px;
+   border-top-right-radius: 2px;
+   border-bottom-right-radius: 2px;
+}
