@@ -1,6 +1,6 @@
 <img src="https://timeweb.com/media/default/0001/01/7205616aa0743c6ddf52959afa95791a75871e1f.png" width="100%" />
 
-<h1>Yii Widget</h1>
+<h1>Yii MVC Dropzone Widget</h1>
 
 Yii component that allows to interact with the user through a widget to drag and drop elements in a stipulated area, makes use of the MVC pattern and interacts with the database by making internal calls about the models that, through inheritance, implement a certain interface.
 
